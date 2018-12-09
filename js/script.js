@@ -60,7 +60,9 @@ function play(){
 
 	}
 	compTurn=true;
-	intervalId = setInterval(gameTurn, 800);
+	intervalId =setInterval(gameTurn, 800);
+
+
 };
 
 function gameTurn(){
